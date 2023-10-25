@@ -81,12 +81,12 @@ const Expense = ({
         </h6>
 
         <div className="expense-cards">
-          {userPaymentStatus?.payment_status && (
+          {/* {userPaymentStatus?.payment_status && (
             <button className="download-btn " onClick={downloadexpenseHandler}>
               <AiOutlineCloudDownload />
               Download
             </button>
-          )}
+          )} */}
           <p
             className={`error-handle ${
               status ? "active" : ""
