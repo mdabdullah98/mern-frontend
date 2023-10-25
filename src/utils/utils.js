@@ -1,4 +1,5 @@
-export const BASE_URL = "http://localhost:4000";
+export const BASE_URL =
+  "http://ec2-13-235-19-8.ap-south-1.compute.amazonaws.com/api/";
 // "http://ec2-35-154-96-163.ap-south-1.compute.amazonaws.com/api";
 
 export const token = JSON.parse(sessionStorage.getItem("token"));
